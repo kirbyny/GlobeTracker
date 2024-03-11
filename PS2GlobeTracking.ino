@@ -48,6 +48,7 @@ void loop() {
     Serial.println(Lat);
     Serial.print("Longitude : ");
     Serial.println(Long);
+    Serial.flush();
   }
   //put code here
 }
